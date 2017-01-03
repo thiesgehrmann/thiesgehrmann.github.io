@@ -1,0 +1,14 @@
+---
+layout: post
+date: 2014-07-18
+img: cabin.png
+title: TITLE
+github: GITHUB LINK
+doi: DOI NUMBER
+article: LINK TO ARTICLE
+description: A description of the thing
+
+short-title: Short title for index page
+short-description: Short description for index page
+
+---
