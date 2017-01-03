@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     {% if !site.url.blank? %}
-                      <img src="{{site.url}}/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                      <img src="{{site.url}}/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ post.title }}">
                     {% else %}
-                      <h1><i class="ai ai-academia"></i></h1>
+                      <img src="{{site.url}}/img/portfolio/default_portfolio.png" class="img-responsive img-centered" alt="{{post.title}}">
                     {% endif %}
                     <div class="intro-text">
                         <span class="name">{{ page.title }}</span>
