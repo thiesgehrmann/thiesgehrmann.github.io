@@ -23,7 +23,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                              {% if post.img.strip.length > 0 %}
+                              {% if post.img != "" and post.img != nil %}
                                 <img src="{{site.url}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.title }}">
                               {% else %}
                                 <img src="{{site.url}}/img/portfolio/portfolio_default.png" class="img-responsive" alt="{{post.title}}">
