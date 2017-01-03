@@ -25,7 +25,7 @@
                       <a href="{{page.article}}" class="btn btn-lg btn-outline">
                           {% if page.arxiv == 1 %}
                             <i class="ai ai-arxiv"></i> {{page.doi}}
-                          {% else if page.oa == 1 %}
+                          {% elsif page.oa == 1 %}
                             <i class="ai ai-open-access"></i> {{page.doi}}
                           {% else %}
                             <i class="ai ai-doi"></i> {{page.doi}}
