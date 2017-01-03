@@ -51,8 +51,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line:
-  - line: 
+  - line: t.gehrmann{at}cbs.knaw.nl 
+  - line: Uppsalalaan 8, 3584 CT Utrecht, Netherlands
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
