@@ -3,40 +3,8 @@
     <section id="portfolio">
 
       <style>
-        .tooltip {
-            position: relative;
-            display: inline-block;
-            border-bottom: 1px dotted black;
-        }
-        
-        .tooltip .tooltiptext {
-            visibility: hidden;
-            width: 120px;
-            background-color: black;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px 0;
-            position: absolute;
-            z-index: 1;
-            top: 150%;
-            left: 50%;
-            margin-left: -60px;
-        }
-        
-        .tooltip .tooltiptext::after {
-            content: "";
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: transparent transparent black transparent;
-        }
-        
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
+        .portfolio-item-shortname {
+
         }
       </style>
         <div class="container">
@@ -57,10 +25,7 @@
                             </div>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
-                        <p> Can anything be said here AT ALL??</p>
-                        <div class="tooltip">TEST
-                          <span class="tooltiptext">ANOTHER{{ post.alt }}</span>
-                        </div>
+                        <p> <h4>{{post.short-title}}</h4> {{post.short-description}}</p>
                     </div>
                 {% endfor %}
             </div>
