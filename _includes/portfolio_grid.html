@@ -23,7 +23,11 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                              {% if !page.img.blank? %}
+                                <img src="{{site.url}}/img/portfolio/{{ page.img }}" class="img-responsive" alt="{{ post.title }}">
+                              {% else %}
+                                <img src="{{site.url}}/img/portfolio/portfolio_default.png" class="img-responsive" alt="{{post.title}}">
+                              {% endif %}
                         </a>
                         <p> <h4>{{post.short-title}}</h4> {{post.short-description}}</p>
                     </div>

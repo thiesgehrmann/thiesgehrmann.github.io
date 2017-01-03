@@ -3,10 +3,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    {% if !site.url.blank? %}
-                      <img src="{{site.url}}/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ post.title }}">
+                    {% if !page.img.blank? %}
+                      <img src="{{site.url}}/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.title }}">
                     {% else %}
-                      <img src="{{site.url}}/img/portfolio/portfolio_default.png" class="img-responsive img-centered" alt="{{post.title}}">
+                      <img src="{{site.url}}/img/portfolio/portfolio_default.png" class="img-responsive img-centered" alt="{{page.title}}">
                     {% endif %}
                     <div class="intro-text">
                         <span class="name">{{ page.title }}</span>
