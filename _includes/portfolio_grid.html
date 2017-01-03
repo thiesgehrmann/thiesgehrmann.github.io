@@ -48,8 +48,8 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <div class="tooltip">link
+                    <div class="tooltip">link
+                      <div class="col-sm-4 portfolio-item">
                           <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                               <div class="caption">
                                   <div class="caption-content">
@@ -58,8 +58,8 @@
                               </div>
                               <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                           </a>
-                          <span class="tooltiptext">{{ post.alt }}</span>
                         </div>
+                      <span class="tooltiptext">ANOTHER{{ post.alt }}</span>
                     </div>
                 {% endfor %}
             </div>
