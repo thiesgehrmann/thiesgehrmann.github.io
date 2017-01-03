@@ -13,6 +13,8 @@
                         <hr class="star-light">
                     </div>
                 </div>
+                <!--{{page.img}}-->
+                <!--{{page.article}}-->
                 <div class="col-lg-12">
                   <div class="col-lg-8 col-lg-offset-2 text-center">
                       {% if page.github != "" %}
@@ -22,7 +24,6 @@
                       {% endif %}
                       {% if page.article.strip == "" or page.article.strip == nil %}
                       &nbsp;
-                      <!--{{page.img}}-->
                       <a href="{{page.article}}" class="btn btn-lg btn-outline">
                           {% if page.arxiv == 1 %}
                             <i class="ai ai-arxiv"></i> {{page.doi}}
