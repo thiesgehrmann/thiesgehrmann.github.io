@@ -49,7 +49,7 @@ social:
   - title: github
     url: http://github.com/thiesgehrmann
 
-tags:
+posttags:
  - Tag1
  - Tag2
  - Functional prediction
