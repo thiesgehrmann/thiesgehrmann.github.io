@@ -7,6 +7,8 @@ github: test
 doi: 10.03.10.120
 article: testarticle.test
 description: bla bla bla
-tags: aa
+tags:
+ - Tag1
+ - Tag2
 
 ---

@@ -15,5 +15,8 @@ description: A description of the thing
 
 short-title: Short title for index page
 short-description: Short description for index page
-tags: tag1,tag2,tag3
+tags:
+ - Tag1
+ - Tag2
+ - Tag3
 ---
