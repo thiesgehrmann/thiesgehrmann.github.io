@@ -5,8 +5,8 @@
                             <p>Tags:
                               <!--{{page.tags.split(',')}}-->
                               {% assign tags = page.tags | split: ',' %}
-                              {% for tag in tags %}
-                                <a href="{{site.url}}/tags/#{{tag}}" >{{tag}}</a>
+                              {% for current_tag in tags %}
+                                <a href="{{site.url}}/tags/#{{current_tag}}" >{{current_tag}}</a>
                               {% endfor %}
                            </p>
                         </div>
