@@ -8,9 +8,10 @@
         }
       </style>
         <div class="container">
+            {% for c_tag in site.tags %}
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Research Projects</h2>
+                    <h2>{{c_tag}}</h2>
                     <hr class="star-primary">
                 </div>
             </div>
