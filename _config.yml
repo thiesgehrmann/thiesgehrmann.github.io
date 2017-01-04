@@ -51,7 +51,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: t.gehrmann{at}cbs.knaw.nl 
+  - line: t.gehrmann<i class="fa fa-at"></i>cbs.knaw.nl 
   - line: Uppsalalaan 8, 3584 CT Utrecht, Netherlands
 
 # Credits content
