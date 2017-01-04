@@ -4,6 +4,11 @@
                         <div class="modal-body">
                             <p>Tags:
                               <!--{{page.tags.split(',')}}-->
+{% assign beatles = "John, Paul, George, Ringo" | split: ", " %}
+
+{% for member in beatles %}
+  {{ member }}
+{% endfor %}
                               {% assign tags = page.tags | split: ',' %}
                               {% for current_tag in tags %}
                                 <a href="{{site.url}}/tags/#{{current_tag}}" >{{current_tag}}</a>
