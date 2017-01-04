@@ -15,25 +15,6 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="{{post.url}}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                              {% if post.img != "" and post.img != nil %}
-                                <img src="{{site.url}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.title }}">
-                              {% else %}
-                                <img src="{{site.url}}/img/portfolio/portfolio_default.png" class="img-responsive" alt="{{post.title}}">
-                              {% endif %}
-                        </a>
-                        <p> <h4>{{post.short-title}}</h4> {{post.short-description}}</p>
-                    </div>
-                {% endfor %}
-            </div>
             {% endfor %}
         </div>
     </section>
