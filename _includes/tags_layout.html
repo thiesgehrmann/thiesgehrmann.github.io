@@ -10,7 +10,16 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            {%for current_tag in site.posts.map{|p| p.tags.split(',')}.flatten.uniq.sort %}
+            {% assign tags = ""
+               for post in site.posts
+                 if tags == ""
+                   assign tags = post.tags
+                 else
+                   assign tags = tags + ',' + post.tags
+                 endif
+               endfor
+               assign tags = tags | split: ',' | sort | uniq %}
+            {%for current_tag in tags %}
             <div class="col-lg-12 text-center" id="{{current_tag}}">
                 <h4>Tag index</h4>
                 <hr class="star-primary">
