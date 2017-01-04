@@ -17,7 +17,7 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                   {% if post.tags | contains ctag %}
+                   {% if post.tags contains ctag %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="{{post.url}}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
