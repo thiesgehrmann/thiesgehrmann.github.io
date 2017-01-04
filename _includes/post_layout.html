@@ -4,7 +4,7 @@
                         <div class="modal-body">
                             <p>Tags:
                               <!--{{page.tags.split(',')}}-->
-                              {% for tag in page.tags | split(',') %}
+                              {% for tag in page.tags | split: ',' %}
                                 <a href="{{site.url}}/tags/#{{tag}}" >{{tag}}</a>
                               {% endfor %}
                            </p>
