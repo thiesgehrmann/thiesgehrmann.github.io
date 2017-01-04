@@ -10,12 +10,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Research Projects</h2>
+                    <h2>Research Highlights</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 {% for post in site.posts %}
+                   {% if post.highlight == 1 %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="{{post.url}}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -31,6 +32,7 @@
                         </a>
                         <p> <h4>{{post.short-title}}</h4> {{post.short-description}}</p>
                     </div>
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>
