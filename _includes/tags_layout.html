@@ -10,22 +10,13 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            {% assign tags = site.posts | first | tags
-               for post in site.posts
-                 assign tags = tags | concat: post.tags
-               endfor %}
-            {{tags}}
-{% for post in site.posts %}
-  {{post.title}}  {{post.tags}}
-{%endfor%}
-            {%for current_tag in tags %}
+            {%for current_tag in site.tags |sort | uniq %}
             <div class="col-lg-12 text-center" id="{{current_tag}}">
-                <h4>Tag index</h4>
+                <h4>{{current_tag}}</h4>
                 <hr class="star-primary">
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                    {{post.tags}}
                     {% if post.tags | contains current_tag %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="{{post.url}}" class="portfolio-link" data-toggle="modal">

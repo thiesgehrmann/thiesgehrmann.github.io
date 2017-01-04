@@ -49,6 +49,15 @@ social:
   - title: github
     url: http://github.com/thiesgehrmann
 
+tags:
+ - Tag1
+ - Tag2
+ - Functional prediction
+ - Data integration
+ - Biological networks
+ - Fungi
+
+
 # Postal address (add as many lines as necessary)
 address:
   - line: t.gehrmann<i class="fa fa-at" aria-hidden="true"></i>cbs.knaw.nl 
