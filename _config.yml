@@ -62,7 +62,7 @@ posttags:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: t.gehrmann<i class="fa fa-at" aria-hidden="true"></i>cbs.knaw.nl 
+  - line: t.gehrmann<i class="fa fa-circle-o" aria-hidden="true"></i>cbs.knaw.nl 
   - line: Uppsalalaan 8, 3584 CT Utrecht, Netherlands
 
 # Credits content
