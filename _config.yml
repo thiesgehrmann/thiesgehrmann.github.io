@@ -66,7 +66,7 @@ address:
   - line: Uppsalalaan 8, 3584 CT Utrecht, Netherlands
 
 # Credits content
-credits: 'Design based on <a href="https://github.com/jeromelachaud/freelancer-theme" alt="link to Jeromelachauds theme">Freelancer theme</a>'
+credits: 'Design based on Jerome Lachaude&#39;s <a href="https://github.com/jeromelachaud/freelancer-theme" alt="link to Jeromelachauds theme">Freelancer theme</a>.'
 
 # Build settings
 markdown: kramdown
