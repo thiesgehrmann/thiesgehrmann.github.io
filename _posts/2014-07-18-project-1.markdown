@@ -7,6 +7,10 @@ github: test
 doi: 10.03.10.120
 article: testarticle.test
 description: bla bla bla
+
+short-title: Another title
+short-description: Another short description
+
 tags:
  - Tag1
  - Tag2
