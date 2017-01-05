@@ -6,6 +6,9 @@
                               <!--{{page.tags.split(',')}}-->
                               {% for current_tag in page.tags %}
                                 <a href="{{site.url}}/interests/#{{ current_tag }}" >{{ current_tag }}</a>
+                                {%if !forloop.last %}
+                                  ,
+                                {%endif}
                               {% endfor %}
                            </p>
                         </div>
