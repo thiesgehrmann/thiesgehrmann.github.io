@@ -62,11 +62,11 @@ posttags:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: t.gehrmann<i class="fa fa-at" aria-hidden="true"></i>cbs.knaw.nl 
+  - line: t.gehrmann<i class="fa fa-rss" aria-hidden="true"></i>cbs.knaw.nl 
   - line: Uppsalalaan 8, 3584 CT Utrecht, Netherlands
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Design based on <a href="https://github.com/jeromelachaud/freelancer-theme" alt="link to Jeromelachauds theme">Freelancer theme</a>'
 
 # Build settings
 markdown: kramdown
