@@ -1,0 +1,20 @@
+---
+layout: post
+date: 2016-06-16
+img: 
+
+github: https://github.com/thiesgehrmann/DTcut
+doi: 
+article:
+oa: 0
+arxiv: 0
+highlight: 0
+software: 1
+
+title: DT-cut: Dynamic tree cut
+description: <p> DT-Cut is a clustering tool based on hierarchical clustering. Rather than cutting the dendrogram at a specific threshold, it cuts based on a statistical test at each node. It uses a dynamic correction procedure to maintain a given famile wise error rate (bonferroni correction).</p>
+
+short-title: DT-cut
+tags:
+ - Clustering
+---
