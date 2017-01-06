@@ -9,6 +9,7 @@ article:
 oa: 0
 arxiv: 0
 highlight: 0
+software: 1
 
 title: Homokaryon specific expression
 description: <p>We developed a tool to identify unique markers between the same gene in two homokaryons. Using these markers, we are able to determine the expression of each nuclear type in a heterokaryon.</p>

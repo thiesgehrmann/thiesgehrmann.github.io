@@ -9,6 +9,7 @@ article: https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioi
 oa: 1
 arxiv: 0
 highlight: 1
+software: 1
 
 title: "Proteny: discovering and visualizing statistically significant syntenic clusters at the proteome level"
 description: >
