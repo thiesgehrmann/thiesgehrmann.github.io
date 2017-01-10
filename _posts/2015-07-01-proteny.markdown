@@ -13,9 +13,10 @@ software: 1
 
 title: "Proteny: discovering and visualizing statistically significant syntenic clusters at the proteome level"
 description: >
-   <p><b>Background:</b>With more and more genomes being sequenced, detecting synteny between genomes becomes more and more important.
+   **Background:**With more and more genomes being sequenced, detecting synteny between genomes becomes more and more important.
    However, for microorganisms the genomic divergence quickly becomes large, resulting in different codon usage and shuffling of gene order and gene elements such as exons.</p>
-   <p><b>Results:</b>We present Proteny, a methodology to detect synteny between diverged genomes. 
+
+   **Results:**We present Proteny, a methodology to detect synteny between diverged genomes. 
    It operates on the amino acid sequence level to be insensitive to codon usage adaptations and clusters groups of exons disregarding order to handle diversity in genomic ordering between genomes.
    Furthermore, Proteny assigns significance levels to the syntenic clusters such that they can be selected on statistical grounds.
    Finally, Proteny provides novel ways to visualize results at different scales, facilitating the exploration and interpretation of syntenic regions.

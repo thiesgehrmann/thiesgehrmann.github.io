@@ -12,7 +12,10 @@ highlight: 0
 software: 1
 
 title: DT&#45;cut&#58; Dynamic tree cut
-description: <p> DT&#45;Cut is a clustering tool based on hierarchical clustering. Rather than cutting the dendrogram at a specific threshold, it cuts based on a statistical test at each node. It uses a dynamic correction procedure to maintain a given famile wise error rate (bonferroni correction).</p>
+description: >
+ DT&#45;Cut is a clustering tool based on hierarchical clustering.
+ Rather than cutting the dendrogram at a specific threshold, it cuts based on a statistical test at each node.
+ It uses a dynamic correction procedure to maintain a given famile wise error rate (bonferroni correction).
 
 short-title: DT-cut
 tags:
