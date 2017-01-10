@@ -12,8 +12,9 @@ highlight: 0
 software: 1
 
 title: Mutations accumulate in an experimental design
-description: >
- A tool to identify SNPs from RNA-Seq data, and then associate those SNPs to individual plates in an experimental design.
+description:
+ - >
+  A tool to identify SNPs from RNA-Seq data, and then associate those SNPs to individual plates in an experimental design.
 
 short-title: rna-SNPed
 tags:

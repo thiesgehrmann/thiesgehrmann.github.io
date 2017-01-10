@@ -12,8 +12,11 @@ highlight: 0
 software: 0
 
 title: TITLE
-description: >
- A description of the thing in markdown format
+description:
+ - >
+  A description of the thing in markdown format
+ - >
+  Another line
 
 short-title: Short title for index page
 short-description: Short description for index page
