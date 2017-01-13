@@ -1,7 +1,8 @@
 ---
 layout: post
 date: 2015-07-01
-img: 
+img: rnasnped.png
+thumb: rnasnped_thumb.png
 
 github: https://github.com/thiesgehrmann/RNA-Snep
 doi: 

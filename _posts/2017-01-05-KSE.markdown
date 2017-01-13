@@ -1,7 +1,8 @@
 ---
 layout: post
 date: 2017-01-05
-img: 
+img: homokaryon.png
+thumb: homokaryon_thumb.png
 
 github: https://github.com/thiesgehrmann/Homokaryon-Expression
 doi: 
