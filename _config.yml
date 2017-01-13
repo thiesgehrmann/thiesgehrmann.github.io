@@ -42,7 +42,7 @@ social:
     url: http://twitter.com/thiesgehrmann
   - title: github
     url: http://github.com/thiesgehrmann
-  - linkedin
+  - title: linkedin
     url: https://www.linkedin.com/in/thiesgehrmann
 
 posttags:
