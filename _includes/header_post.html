@@ -26,14 +26,14 @@
                       {% endif %}
                       {% if page.article != "" and page.article != nil %}
                       &nbsp;
-                      <a href="{{page.article}}" class="btn btn-lg btn-outline">DOI: 
+                      <a href="{{page.article}}" class="btn btn-lg btn-outline">
                           {% if page.arxiv == 1 %}
-                            <i class="ai ai-arxiv"></i> {{page.doi}}
+                            <i class="ai ai-arxiv"></i>
                           {% elsif page.oa == 1 %}
-                            <i class="ai ai-open-access"></i> {{page.doi}}
+                            <i class="ai ai-open-access"></i>
                           {% else %}
-                            <i class="ai ai-doi"></i> {{page.doi}}
-                          {% endif %}
+                            <i class="ai ai-doi"></i>
+                          {% endif %} DOI: {{page.doi}}
                       </a>
                       {% endif %}
                       {% if page.data != "" and page.data != nil %}
