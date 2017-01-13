@@ -1,7 +1,8 @@
 ---
 layout: post
 date: 2016-06-16
-img: 
+img: dtcut.png
+thumb: dtcut_thumb.png
 
 github: https://github.com/thiesgehrmann/DTcut
 doi: 
