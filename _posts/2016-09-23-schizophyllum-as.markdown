@@ -2,6 +2,7 @@
 layout: post
 date: 2016-09-23
 img: sc_as.png
+thumb: sc_as_thumb.png
 
 github:
 doi: doi:10.1038/srep33640
