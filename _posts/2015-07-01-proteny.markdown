@@ -27,7 +27,7 @@ description:
      In comparison to other tools, we find that Proteny finds clusters with more true homologies in fewer clusters that contain more genes, i.e. Proteny is able to identify a more consistent synteny.
      Further, we show how genome rearrangements, assembly errors, gene duplications and the conservation of specific genes can be easily studied with Proteny.</p>
 
-short-title: Distant synteny
+short-title: Discovering distant synteny
 short-description: Synteny between diverged organisms
 tags:
  - Synteny
