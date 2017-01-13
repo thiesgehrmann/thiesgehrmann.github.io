@@ -3,6 +3,7 @@ layout: post
 date: 2013-06-17
 img: crfunc.png
 thumb: crfunc_thumb.png
+
 title: Conditional random fields for protein function prediction
 github: https://github.com/thiesgehrmann/CRFunc
 doi: 10.1007/978-3-642-39159-0_17

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-09-23
-img: 
+img: sc_as.png
 
 github:
 doi: doi:10.1038/srep33640
