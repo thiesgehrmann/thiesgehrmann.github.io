@@ -25,7 +25,7 @@ description:
     The improvement gained from each source of evidence is not the same for each protein function, indicating that each source supplies different information.
     We demonstrate that CRFs can be used to efficiently integrate various sources of data to predict functional annotations.
 
-short-title: CRFunc
+short-title: CRF function prediction
 short-description: Conditional random fields for protein function prediction
 tags:
  - Functional prediction

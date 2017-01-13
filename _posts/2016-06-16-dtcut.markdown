@@ -19,7 +19,7 @@ description:
   Rather than cutting the dendrogram at a specific threshold, it cuts based on a statistical test at each node.
   It uses a dynamic correction procedure to maintain a given famile wise error rate (bonferroni correction).
 
-short-title: DT-cut
+short-title: Dynamic Tree cut
 tags:
  - Clustering
 ---
