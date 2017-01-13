@@ -36,6 +36,16 @@
                           {% endif %}
                       </a>
                       {% endif %}
+                      {% if page.data != "" and page.data != nil %}
+                      <a href="{{page.data}}" class="btn btn-lg btn-outline">
+                        <i class="fa fa-database"></i>
+                        {% if page.datatext != "" and page.data_text != nil %}
+                          {{page.datatext}}
+                        {% else %}
+                          Download data
+                        {% endif %}
+                      </a>
+                      {% endif %}
                   </div>
                 </div>
             </div>

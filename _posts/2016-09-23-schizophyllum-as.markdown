@@ -12,6 +12,9 @@ arxiv: 0
 highlight: 1
 software: 0
 
+data: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA323434/
+datatext: RNA-Seq data
+
 title: Schizophyllum commune has an extensive and functional alternative splicing repertoire
 description:
  - >

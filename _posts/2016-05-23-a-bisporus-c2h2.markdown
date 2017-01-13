@@ -12,6 +12,9 @@ arxiv: 0
 highlight: 0
 software: 0
 
+data: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA309475
+datatext: RNA-Seq data
+
 title: The transcriptional regulator c2h2 accelerates mushroom formation in Agaricus bisporus
 description:
  - >
