@@ -46,15 +46,15 @@ social:
     url: http://github.com/thiesgehrmann
 
 posttags:
- - Functional prediction
- - Data integration
- - Biological networks
- - Fungi
- - Synteny
  - Sequence analysis
  - Transcriptomics
+ - Fungi
+ - Biological networks
+ - Synteny
  - Alternative splicing
  - Variant discovery
+ - Functional prediction
+ - Data integration
 
 
 # Postal address (add as many lines as necessary)
