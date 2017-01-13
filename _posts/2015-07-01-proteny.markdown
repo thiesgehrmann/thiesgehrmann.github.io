@@ -1,7 +1,8 @@
 ---
 layout: post
 date: 2015-07-01
-img: 
+img: proteny.png
+thumb: proteny_thumb.png
 
 github: https://github.com/thiesgehrmann/proteny
 doi: 10.1093/bioinformatics/btv389
