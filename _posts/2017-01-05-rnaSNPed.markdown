@@ -4,7 +4,7 @@ date: 2015-07-01
 img: rnasnped.png
 thumb: rnasnped_thumb.png
 
-github: https://github.com/thiesgehrmann/RNA-Snep
+github: https://github.com/thiesgehrmann/RNA-SNPed
 doi: 
 article:
 oa: 0
