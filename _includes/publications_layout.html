@@ -11,12 +11,12 @@
                               <b>{{pub.title}}</b>
                               {% endif %} <br/>
                               {% for author in pub.authors %}
-                                  {% assign author_info = page.coauthors[ author ] }%
-                                 <a href="{{author_info.website}}">
+                                  {% assign authorinfo = page.coauthors[ author ] }%
+                                 <a href="{{authorinfo.website}}">
                                   {% if author == "TG" %}
-                                    <b>{{author_info.name}}</b>
+                                    <b>{{authorinfo.name}}</b>
                                   {% else %}
-                                    {{author_info.name}}
+                                    {{authorinfo.name}}
                                   {% endif %}
                                  </a>
                                   {%unless forloop.last %}
