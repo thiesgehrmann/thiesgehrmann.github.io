@@ -8,12 +8,12 @@
                        <p><h3>{{lastdate}}</h3></p>
                      {% endif %}
                      <p>       
-                     <b>{{pub.journal}} |
+                     {{pub.journal}} |
                      {% if pub.post != "" and pub.post != nil %}
                        <a href="{{pub.post}}"><i>{{pub.title}}</i></a>
                      {% else %}
                      <i>{{pub.title}}</i>
-                     {% endif %}
+                     {% endif %} | <b>{{pub.journal}}</b>
                      {% if pub.pdf != "" and pub.pdf != nil %} | <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> {%endif%} <br/>
                      {% for author in pub.authors %}
                         {% assign authorinfo = page.coauthors[ author ] %}
