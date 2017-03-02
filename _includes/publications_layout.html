@@ -4,7 +4,7 @@
                         <div class="modal-body">
                             {% for pub in page.pubs %}
                               <p>
-                              {{ pub.date }}, {{pub.journal}} |
+                              <b>{{ pub.date }}</b>, {{pub.journal}}<br>
                               {% if pub.post != "" and pub.post != nil %}
                                 <a href="{{pub.post}}">{{pub.title}}</a>
                               {% else %}
@@ -13,9 +13,9 @@
                               {% for author in pub.authors %}
                                  <a href="{{page.authors[ author ].website}}">
                                   {% if author == "TG" %}
-                                    <b>{{page.authors[ author ].name}}</b>
+                                    <b>{{page.coauthors[ author ].name}}</b>
                                   {% else %}
-                                    {{page.authors[ author ].name}}
+                                    {{page.coauthors[ author ].name}}
                                   {% endif %}
                                  </a>
                                   {%unless forloop.last %}
