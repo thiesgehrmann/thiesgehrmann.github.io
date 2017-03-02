@@ -14,6 +14,7 @@
                      <b>{{pub.title}}</b>
                      {% endif %} | <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <br/>
                      {% for author in pub.authors %}
+                        {{author}}
                         {% assign authorinfo = page.coauthors[ author ] %}
                         <a href="{{authorinfo.website}}">
                          {% if author == "TG" %}
