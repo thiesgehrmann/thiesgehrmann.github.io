@@ -1,8 +1,7 @@
             <div class="container">
                 <div class="row">
                    {% assign lastdate = "0000" %}
-                   {% assign publications = page.pubs | sort: 'date' | reverse %}
-                   {% for pub in publications %}
+                   {% for pub in page.pubs %}
                      {% if (lastdate != pub.date) %}
                        {% assign lastdate = pub.date %}
                        <p><h3>{{lastdate}}</h3></p>
