@@ -12,8 +12,9 @@
                      {% if pub.post != "" and pub.post != nil %}
                        <a href="{{pub.post}}"><i>{{pub.title}}</i></a>
                      {% else %}
-                     <b>{{pub.title}}</b>
-                     {% endif %} | <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <br/>
+                     <i>{{pub.title}}</i>
+                     {% endif %}
+                     {% if pub.pdf != "" and pub.pdf != nil %} | <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> {%endif%} <br/>
                      {% for author in pub.authors %}
                         {% assign authorinfo = page.coauthors[ author ] %}
                          {%if forloop.last %}
