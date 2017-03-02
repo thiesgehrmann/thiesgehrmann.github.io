@@ -2,9 +2,9 @@
                 <div class="row">
                    {% for pub in page.pubs %}
                      <p>
-                     <b>{{ pub.date }}</b>, {{pub.journal}}<br>
+                     <b>{{ pub.date }}</b>, {{pub.journal}} |
                      {% if pub.post != "" and pub.post != nil %}
-                       <a href="{{pub.post}}">{{pub.title}}</a>
+                       <a href="{{pub.post}}"><i>{{pub.title}}</i></a> | <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                      {% else %}
                      <b>{{pub.title}}</b>
                      {% endif %} <br/>
@@ -21,7 +21,6 @@
                            ,
                          {%endunless%}
                      {% endfor %}
-                     <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                      </p>
                    {% endfor %}
                 </div>
