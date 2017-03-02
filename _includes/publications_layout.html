@@ -3,7 +3,7 @@
                    {% assign lastdate = "0000" %]
                    {% for pub in page.pubs %}
                      {% if lastdate != pub.date %}
-                       { % assign lastdate = pub.date %}
+                       {% assign lastdate = pub.date %}
                        <p><h4>{{lastdate}}</h4></p>
                      {% endif %}
                      <p>       
