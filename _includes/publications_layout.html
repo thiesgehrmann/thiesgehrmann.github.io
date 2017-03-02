@@ -5,7 +5,12 @@
                    {% for pub in publications %}
                      {% if (lastdate != pub.date) %}
                        {% assign lastdate = pub.date %}
-                       <p><h3>{{lastdate}}</h3></p>
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h2>{{lastdate}}</h2>
+                                <hr class="star-primary">
+                            </div>
+                        </div>
                      {% endif %}
                      <p>       
                      {% if pub.post != "" and pub.post != nil %}
