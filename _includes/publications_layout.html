@@ -1,10 +1,11 @@
             <div class="container">
                 <div class="row">
                    {% assign lastdate = "0000" %}
-                   {% for pub in page.pubs %}
+                   {% assign publications = page.pubs | sort: 'date' | reverse %}
+                   {% for pub in publications %}
                      {% if (lastdate != pub.date) %}
                        {% assign lastdate = pub.date %}
-                       <p><h4>{{lastdate}}</h4></p>
+                       <p><h3>{{lastdate}}</h3></p>
                      {% endif %}
                      <p>       
                      <b>{{pub.journal}} |
@@ -16,15 +17,19 @@
                      {% for author in pub.authors %}
                         {% assign authorinfo = page.coauthors[ author ] %}
                          {%if forloop.last %}
-                           , and 
+                           and 
                          {%endif%}
-                        <a href="{{authorinfo.website}}">
-                         {% if author == "TG" %}
-                           <b>{{authorinfo.name}}</b>
+                        {% if authorinfo.website != "" and authorinfo.website != nil %}
+                          <a href="{{authorinfo.website}}">
+                           {% if author == "TG" %}
+                             <b>{{authorinfo.name}}</b>
+                           {% else %}
+                             {{authorinfo.name}}
+                           {% endif %}
+                          </a>
                          {% else %}
                            {{authorinfo.name}}
                          {% endif %}
-                        </a>
                          {%unless forloop.last %}
                            ,
                          {%endunless%}
