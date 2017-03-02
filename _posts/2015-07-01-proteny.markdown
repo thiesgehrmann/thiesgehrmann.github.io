@@ -25,7 +25,7 @@ description:
      Finally, Proteny provides novel ways to visualize results at different scales, facilitating the exploration and interpretation of syntenic regions.
      We test the performance of Proteny on a standard ground truth dataset, and we illustrate the use of Proteny on two closely related genomes (two different strains of Aspergillus niger) and on two distant genomes (two species of Basidiomycota).
      In comparison to other tools, we find that Proteny finds clusters with more true homologies in fewer clusters that contain more genes, i.e. Proteny is able to identify a more consistent synteny.
-     Further, we show how genome rearrangements, assembly errors, gene duplications and the conservation of specific genes can be easily studied with Proteny.</p>
+     Further, we show how genome rearrangements, assembly errors, gene duplications and the conservation of specific genes can be easily studied with Proteny.
 
 short-title: Discovering distant synteny
 short-description: Synteny between diverged organisms
