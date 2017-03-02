@@ -1,7 +1,6 @@
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                    <div class="col-sm-4 portfolio-item">
                             {% for pub in page.pubs %}
                               <p>
                               <b>{{ pub.date }}</b>, {{pub.journal}}<br>
@@ -26,7 +25,6 @@
                               <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                               </p>
                             {% endfor %}
-                        </div>
                     </div>
                 </div>
              </div>
