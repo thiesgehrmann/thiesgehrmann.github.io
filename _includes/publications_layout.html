@@ -11,7 +11,7 @@
                               <b>{{pub.title}}</b>
                               {% endif %} <br/>
                               {% for author in pub.authors %}
-                                  {% assign authorinfo = page.coauthors[ author ] }%
+                                 {% assign authorinfo = page.coauthors[ author ] %}
                                  <a href="{{authorinfo.website}}">
                                   {% if author == "TG" %}
                                     <b>{{authorinfo.name}}</b>
