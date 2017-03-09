@@ -1,13 +1,13 @@
             <div class="container">
                 <div class="row">
-                   {% assign lastdate = "0000" %}
+                   {% assign lastdate = "-1111" %}
                    {% assign publications = page.pubs | sort: 'date' | reverse %}
                    {% for pub in publications %}
                      {% if (lastdate != pub.date) %}
                        {% assign lastdate = pub.date %}
                         <div class="row">
                             <div class="col-lg-12 text-center">
-                                <h2>{{lastdate}}</h2>
+                                <h2>{% if lastdate == 0 %} In Preparation {% else %} {{lastdate}} {% endif %}</h2>
                                 <hr class="star-primary">
                             </div>
                         </div>
