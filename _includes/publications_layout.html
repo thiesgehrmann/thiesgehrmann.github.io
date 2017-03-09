@@ -27,7 +27,7 @@
                         {% if authorinfo.website != "" and authorinfo.website != nil %}
                           <a href="{{authorinfo.website}}">
                            {% if author == "TG" %}
-                             <u>{{authorinfo.name}}</u>
+                             <b><u>{{authorinfo.name}}</u></b>
                            {% else %}
                              {{authorinfo.name}}
                            {% endif %}
