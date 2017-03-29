@@ -20,13 +20,7 @@
                      {% else %}
                      <i>{{pub.title}}</i>
                      {% endif %}
-    </div>
-    <div style="margin-left: 60%;">
-                     | <b>{{pub.journal}}</b>
-                     {% if pub.pdf != "" and pub.pdf != nil %} | <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> {%endif%} <br/>
 
-    </div>
-</div>
                      {% for author in pub.authors %}
                         {% assign authorinfo = page.coauthors[ author ] %}
                          {%if forloop.last %}
@@ -47,6 +41,13 @@
                            ,
                          {%endunless%}
                      {% endfor %}
+    </div>
+    <div style="margin-left: 60%;">
+                     | <b>{{pub.journal}}</b>
+                     {% if pub.pdf != "" and pub.pdf != nil %} | <a href="{{pub.pdf}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> {%endif%} <br/>
+
+    </div>
+</div>
                      </p>
                    {% endfor %}
                 </div>
