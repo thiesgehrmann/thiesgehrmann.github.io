@@ -19,7 +19,7 @@
                        <a href="{{pub.post}}"><i>{{pub.title}}</i></a>
                      {% else %}
                      <i>{{pub.title}}</i>
-                     {% endif %}
+                     {% endif %}<br/>
 
                      {% for author in pub.authors %}
                         {% assign authorinfo = page.coauthors[ author ] %}
