@@ -3,7 +3,7 @@ title: Thies Gehrmann
 email: t.gehrmann{at}lumc.nl
 url: https://thiesgehrmann.github.io
 description: "Thies Gehrmann"
-skills: "Bioinformatics - Sequence analysis - Fungal "
+skills: "Bioinformatics - Sequence analysis - Fungal biology"
 meta_author: Gehrmann Thies
 
 # Google webmaster tools
@@ -55,7 +55,7 @@ posttags:
  - Variant discovery
  - Functional prediction
  - Data integration
-
+ - Machine Learning
 
 # Postal address (add as many lines as necessary)
 address:
