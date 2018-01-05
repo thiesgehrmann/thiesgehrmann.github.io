@@ -1,9 +1,9 @@
 # Site settings
 title: Thies Gehrmann
-email: t.gehrmann{at}cbs.knaw.nl
+email: t.gehrmann{at}lumc.nl
 url: https://thiesgehrmann.github.io
 description: "Thies Gehrmann"
-skills: "Bioinformatics - Fungal biology - Sequence analysis"
+skills: "Bioinformatics - Sequence analysis - Fungal "
 meta_author: Gehrmann Thies
 
 # Google webmaster tools
@@ -59,8 +59,8 @@ posttags:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: t.gehrmann{at}cbs.knaw.nl 
-  - line: Uppsalalaan 8, 3584 CT Utrecht, Netherlands
+  - line: t.gehrmann{at}lumc.nl 
+  - line: Einthovenweg 20, 2333 ZC Leiden, Netherlands
 
 # Credits content
 credits: 'Design based on Jerome Lachaude&#39;s <a href="https://github.com/jeromelachaud/freelancer-theme" alt="link to Jeromelachauds theme">Freelancer theme</a>.'
