@@ -5,11 +5,11 @@ img: homokaryon.png
 thumb: homokaryon_thumb.png
 
 github: https://github.com/thiesgehrmann/Homokaryon-Expression
-doi: 10.1101/141689
-article: http://www.biorxiv.org/content/early/2017/07/04/141689
-oa: 0
-arxiv: 1
-highlight: 0
+doi: 10.1073/pnas.1721381115
+article: http://www.pnas.org/content/early/2018/04/10/1721381115
+oa: 1
+arxiv: 0
+highlight: 1
 software: 1
 
 title: Homokaryon specific expression
