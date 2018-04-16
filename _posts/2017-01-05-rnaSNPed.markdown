@@ -5,10 +5,10 @@ img: rnasnped.png
 thumb: rnasnped_thumb.png
 
 github: https://github.com/thiesgehrmann/RNA-SNPed
-doi: 
-article:
-oa: 0
-arxiv: 0
+doi: 10.1101/201012 
+article: https://www.biorxiv.org/content/biorxiv/early/2017/10/10/201012.full.pdf
+oa: 1
+arxiv: 1
 highlight: 0
 software: 1
 
