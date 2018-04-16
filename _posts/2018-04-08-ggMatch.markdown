@@ -1,0 +1,32 @@
+---
+layout: post
+date: 2018-04-08
+img: ggMatch.png 
+thumb: ggMatch_thumb.png
+
+github: https://github.com/thiesgehrmann/ggMatch
+doi: 10.1101/154641
+article: https://www.biorxiv.org/content/early/2017/06/23/154641
+oa: 1
+arxiv: 1
+highlight: 0
+software: 1
+
+data:
+datatext:
+
+title: Greedy gene matching for large scale homology detection
+description:
+ - >
+  ggMatch finds reciprocal best blast/diamond hits across a large number of genomes, in an iterative fashion. The iterative nature removes the need to do the dreaded all-vs-all blast between all genomes. 
+ - >
+  The figure below shows an example gene matching process for a single gene against 298 fungal genomes extracted from the JGI. The black node represents the original query sequence, and edges between other nodes represent high quality reciprocal best blast hits. Each node color represents a different iteration. In the first iteration, we discover the yellow genes, and in later iterations we discover other genes based on the newly discovered genes. A traditional reciprocal best hit search would have revealed only the yellow nodes in this network.
+
+short-title: Greedy Gene Matching
+short-description: Short description for index page
+tags:
+ - Homology
+ - Fungi
+ - Sequence analysis
+ - Biological networks
+---
